@@ -50,20 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAfc5tYignvOon7AFVLL6mxeTwUIE70J18',
-    appId: '1:329909053048:android:5992d0128fe99fc0612f8d',
-    messagingSenderId: '329909053048',
-    projectId: 'login-app-f7ed4',
-    storageBucket: 'login-app-f7ed4.appspot.com',
+    apiKey: 'AIzaSyBbTSbEtq3cQiCWzt5lhzdFWGaPDItRXmA',
+    appId: '1:474193292030:android:5e685a132ae959080753af',
+    messagingSenderId: '474193292030',
+    projectId: 'calendar-scheduler-5704a',
+    storageBucket: 'calendar-scheduler-5704a.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDvEtPEKfmST8N8KWUOaEmFvszeYAKzsyU',
-    appId: '1:329909053048:ios:732efcb928a679ac612f8d',
-    messagingSenderId: '329909053048',
-    projectId: 'login-app-f7ed4',
-    storageBucket: 'login-app-f7ed4.appspot.com',
+    apiKey: 'AIzaSyAaML3CxD0I7CQe7Yp1S2E6b_0Ubhy72eo',
+    appId: '1:474193292030:ios:6ead4367335009420753af',
+    messagingSenderId: '474193292030',
+    projectId: 'calendar-scheduler-5704a',
+    storageBucket: 'calendar-scheduler-5704a.appspot.com',
     iosBundleId: 'com.example.loginApp',
   );
-
 }

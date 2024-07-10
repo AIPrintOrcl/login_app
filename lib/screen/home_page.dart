@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:login_app/controller/auth_controller.dart';
+import 'package:login_app/controller/login_controller.dart';
 
 class HomePage extends StatelessWidget {
+  final googleLoginController = Get.put(LoginController());
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,8 +20,19 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      body: Center(
-        child: Text('Welcome to the Home Page!'),
+      body: Padding(
+        padding: const EdgeInsets.all(32.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+                googleLoginController.googleSignInAccount.value?.displayName ?? '',
+            ),
+            Text(
+              googleLoginController.googleSignInAccount.value?.email ?? '',
+            ),
+          ],
+        ),
       ),
     );
   }

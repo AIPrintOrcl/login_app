@@ -1,13 +1,70 @@
 {
   "project_info": {
-    "project_number": "329909053048",
-    "project_id": "login-app-f7ed4",
-    "storage_bucket": "login-app-f7ed4.appspot.com"
+    "project_number": "474193292030",
+    "project_id": "calendar-scheduler-5704a",
+    "storage_bucket": "calendar-scheduler-5704a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:329909053048:android:5992d0128fe99fc0612f8d",
+        "mobilesdk_app_id": "1:474193292030:android:c1a5a11d0ed0c3cb0753af",
+        "android_client_info": {
+          "package_name": "com.example.calendar_scheduler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbTSbEtq3cQiCWzt5lhzdFWGaPDItRXmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474193292030:android:ec1c5e40d71a56980753af",
+        "android_client_info": {
+          "package_name": "com.example.getx_login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbTSbEtq3cQiCWzt5lhzdFWGaPDItRXmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474193292030:android:6974752b6ad62cfd0753af",
+        "android_client_info": {
+          "package_name": "com.example.getx_login_lecture"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbTSbEtq3cQiCWzt5lhzdFWGaPDItRXmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474193292030:android:5e685a132ae959080753af",
         "android_client_info": {
           "package_name": "com.example.login_app"
         }
@@ -15,7 +72,26 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAfc5tYignvOon7AFVLL6mxeTwUIE70J18"
+          "current_key": "AIzaSyBbTSbEtq3cQiCWzt5lhzdFWGaPDItRXmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474193292030:android:e7cc48acca990a750753af",
+        "android_client_info": {
+          "package_name": "com.neeznggnz.tadpolediary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbTSbEtq3cQiCWzt5lhzdFWGaPDItRXmA"
         }
       ],
       "services": {
