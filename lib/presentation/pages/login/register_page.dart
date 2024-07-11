@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:login_app/controller/auth_controller.dart';
+import 'package:login_app/presentation/pages/login/auth_controller.dart';
 
 class RegisterPage extends StatelessWidget {
   final emailController = TextEditingController();

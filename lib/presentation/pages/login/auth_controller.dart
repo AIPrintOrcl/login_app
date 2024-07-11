@@ -1,13 +1,16 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:login_app/screen/home_page.dart';
-import 'package:login_app/screen/login_page.dart';
+import 'package:login_app/presentation/pages/home_page.dart';
+import 'package:login_app/presentation/pages/login/login_page.dart';
+
 
 class AuthController extends GetxController {
   static AuthController instance = Get.find();
   late Rx<User?> _user;
   FirebaseAuth auth = FirebaseAuth.instance;
+
+  Rx<User?> get getUser => _user!;
 
   @override
   void onReady() {
