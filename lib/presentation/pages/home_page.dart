@@ -27,20 +27,17 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              googleAuthController.user?.displayName ?? '',
+              googleAuthController.user.displayName!,
             ),
             Text(
-              googleAuthController.user?.email ?? '',
+              googleAuthController.user.email,
             ),
             Obx(() {
-              if(authController.auth != null) {
-                return logoutBtn();
-              }
-              if(googleAuthController.user != null){
-                return googleLogoutBtn();
-              }else {
-                return logoutBtn();
-              }
+              return logoutBtn();
+
+              return googleLogoutBtn();
+
+              return logoutBtn();
             }),
           ],
         ),
@@ -60,7 +57,7 @@ class HomePage extends StatelessWidget {
   ElevatedButton googleLogoutBtn() {
     return ElevatedButton(
       onPressed: () {
-        googleAuthController.gooleLogout();
+        googleAuthController.googleLogout();
       },
       child: Text('Google LogOut'),
     );
